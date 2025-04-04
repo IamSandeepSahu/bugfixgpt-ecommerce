@@ -1,0 +1,113 @@
+{"timestamp": "2025-04-04 13:00:52,456", "level": "INFO", "message": Database initialized with sample products}
+{"timestamp": "2025-04-04 13:00:52,462", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:00:52,462", "level": "INFO", "message":  * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:01:15,706", "level": "INFO", "message": 172.19.0.8 - - [04/Apr/2025 13:01:15] "GET /products HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:40,722", "level": "INFO", "message": 172.19.0.8 - - [04/Apr/2025 13:01:40] "[35m[1mPOST /products HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:02:13,772", "level": "INFO", "message": 172.19.0.7 - - [04/Apr/2025 13:02:13] "GET /products/67efd804aa8da7344c1f476d HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:03:14,569", "level": "INFO", "message": 172.19.0.7 - - [04/Apr/2025 13:03:14] "GET /products/67efd804aa8da7344c1f476d HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:03:21,694", "level": "INFO", "message": 172.19.0.7 - - [04/Apr/2025 13:03:21] "GET /products/67efd804aa8da7344c1f476d HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:00,317", "level": "INFO", "message": Database initialized with sample products}
+{"timestamp": "2025-04-04 13:11:00,319", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:11:00,319", "level": "INFO", "message":  * Running on http://172.20.0.8:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:11:16,854", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:11:16] "[33mGET /products/by-category/electronics HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:11:46,465", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:11:46] "GET /products/category/electronics HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:52,980", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:11:52] "GET /health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:58,751", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:11:58] "[35m[1mPOST /products HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:12:16,138", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:12:16] "GET /products/search?q=non-existent-product HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:37,171", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:16:37,171", "level": "INFO", "message":  * Running on http://172.20.0.8:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:16:43,384", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:43] "GET /products/search?q=phone+%5B%2B%5D HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,633", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=a+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,639", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=b+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,645", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=c+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,650", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=d+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,655", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=e+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,662", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=f+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,667", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=g+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,671", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=h+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,679", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=i+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,685", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=j+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,690", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=k+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,696", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=l+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,701", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=m+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,706", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=n+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,711", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=o+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,716", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=p+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,721", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=q+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,725", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=r+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,731", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=s+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,735", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=t+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,739", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=u+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,800", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=v+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,815", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=w+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,822", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=x+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,826", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=y+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,831", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:48] "GET /products/search?q=z+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:55,096", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[])( ", "params": {"q": "*[])( "}}}
+{"timestamp": "2025-04-04 13:16:55,096", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:16:55] "[35m[1mGET /products/search?q=%2A%5B%5D%29%28+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:20:35,841", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[])( ", "params": {"q": "*[])( "}}}
+{"timestamp": "2025-04-04 13:20:35,842", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:20:35] "[35m[1mGET /products/search?q=%2A%5B%5D%29%28+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:21:10,195", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[])( ", "params": {"q": "*[])( "}}}
+{"timestamp": "2025-04-04 13:21:10,196", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:21:10] "[35m[1mGET /products/search?q=%2A%5B%5D%29%28+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:28:16,458", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[])( ", "params": {"q": "*[])( "}}}
+{"timestamp": "2025-04-04 13:28:16,460", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:28:16] "[35m[1mGET /products/search?q=%2A%5B%5D%29%28+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:32:02,494", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:32:02,495", "level": "INFO", "message":  * Running on http://172.20.0.8:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:32:10,332", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:32:10] "[33mGET /search?query=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:32:20,156", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:32:20] "[33mGET /search?q=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:32:41,641", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:32:41] "[33mGET /search?q=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:33:38,956", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:33:38] "GET /products/search?q=phone+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:33:45,369", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[])( ", "params": {"q": "*[])( "}}}
+{"timestamp": "2025-04-04 13:33:45,370", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:33:45] "[35m[1mGET /products/search?q=%2A%5B%5D%29%28+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:35:22,094", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/products/search", "query": "*[][] (", "params": {"q": "*[][] ("}}}
+{"timestamp": "2025-04-04 13:35:22,095", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:35:22] "[35m[1mGET /products/search?q=%2A%5B%5D%5B%5D+%28 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:57:25,050", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:57:25] "[33mGET /search?q=Smartphone HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:57:34,825", "level": "INFO", "message": 172.20.0.5 - - [04/Apr/2025 13:57:34] "[33mGET /search?q=Smartphone HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 14:05:08,877", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:05:08,878", "level": "INFO", "message":  * Running on http://172.20.0.8:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:05:37,751", "level": "ERROR", "message": {"error": "'products' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string", "route": "/products", "params": {}}}
+{"timestamp": "2025-04-04 14:05:37,752", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:05:37] "[35m[1mGET /products HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:05:53,877", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:05:53] "GET /search?q=phone HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:05:58,409", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:05:58] "GET /category/Electronics HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:18,357", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:06:18] "GET / HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:24,631", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:06:24] "GET /search?q=Smartphone HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:08:18,114", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 14:08:18,115", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:08:18] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:09:41,205", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:09:41,205", "level": "INFO", "message":  * Running on http://172.20.0.8:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:10:30,865", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 14:10:30,866", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:10:30] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:13:09,423", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 14:13:09,424", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:13:09] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 15:27:09,218", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 15:27:09,218", "level": "INFO", "message":  * Running on http://172.20.0.7:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 15:27:17,651", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 15:27:17,652", "level": "INFO", "message": 172.20.0.3 - - [04/Apr/2025 15:27:17] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:38:04,965", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:38:04,966", "level": "INFO", "message":  * Running on http://172.20.0.6:5000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:38:10,088", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 16:38:10,090", "level": "INFO", "message": 172.20.0.4 - - [04/Apr/2025 16:38:10] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:54:12,828", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 16:54:12,829", "level": "INFO", "message": 172.20.0.4 - - [04/Apr/2025 16:54:12] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:55:17,843", "level": "ERROR", "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "route": "/search", "query": "*[()", "params": {"q": "*[()"}}}
+{"timestamp": "2025-04-04 16:55:17,845", "level": "INFO", "message": 172.20.0.4 - - [04/Apr/2025 16:55:17] "[35m[1mGET /search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:57:13,877", "level": "ERROR", "file": "/app/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 16:57:13,878", "level": "INFO", "file": "/app/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0020s"}}
+{"timestamp": "2025-04-04 16:58:22,497", "level": "ERROR", "file": "/app/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 16:58:22,498", "level": "INFO", "file": "/app/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0023s"}}
+{"timestamp": "2025-04-04 17:01:18,686", "level": "ERROR", "file": "/app/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 17:01:18,687", "level": "INFO", "file": "/app/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0037s"}}
+{"timestamp": "2025-04-04 17:06:42,890", "level": "ERROR", "file": "/app/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 17:06:42,891", "level": "INFO", "file": "/app/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0015s"}}
+{"timestamp": "2025-04-04 17:22:51,311", "level": "ERROR", "file": "/app/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 17:22:51,312", "level": "INFO", "file": "/app/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0037s"}}
+{"timestamp": "2025-04-04 17:25:59,227", "level": "ERROR", "file": "/sample-ecommerce-services/products/app.py", "line": 249, "function": "search_products", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"error": "Regular expression is invalid: quantifier does not follow a repeatable item, full error: {'ok': 0.0, 'errmsg': 'Regular expression is invalid: quantifier does not follow a repeatable item', 'code': 51091, 'codeName': 'Location51091'}", "query": "*[()"}}
+{"timestamp": "2025-04-04 17:25:59,228", "level": "INFO", "file": "/sample-ecommerce-services/products/app.py", "line": 73, "function": "log_request", "url": "/search", "method": "GET", "params": {'q': '*[()'}, "message": {"status_code": 500, "execution_time": "0.0027s"}}

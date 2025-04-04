@@ -1,0 +1,41 @@
+{"timestamp": "2025-04-04 13:00:52,403", "level": "INFO", "message": Users database initialized with sample data}
+{"timestamp": "2025-04-04 13:00:52,409", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:00:52,409", "level": "INFO", "message":  * Running on http://172.19.0.4:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:01:20,819", "level": "INFO", "message": 172.19.0.8 - - [04/Apr/2025 13:01:20] "[35m[1mPOST /users/register HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:01:25,890", "level": "INFO", "message": 172.19.0.8 - - [04/Apr/2025 13:01:25] "POST /users/login HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:00,312", "level": "INFO", "message": Users database initialized with sample data}
+{"timestamp": "2025-04-04 13:11:00,317", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:11:00,317", "level": "INFO", "message":  * Running on http://172.20.0.9:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:05:08,450", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:05:08,450", "level": "INFO", "message":  * Running on http://172.20.0.9:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:06:29,426", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:06:29] "GET /health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:09:41,239", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:09:41,239", "level": "INFO", "message":  * Running on http://172.20.0.9:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 15:27:09,577", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 15:27:09,578", "level": "INFO", "message":  * Running on http://172.20.0.5:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:38:04,961", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:38:04,965", "level": "INFO", "message":  * Running on http://172.20.0.10:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:56:37,354", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:56:37,354", "level": "INFO", "message":  * Running on http://172.18.0.5:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:01:04,660", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:01:04,660", "level": "INFO", "message":  * Running on http://172.18.0.5:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:06:25,031", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:06:25,031", "level": "INFO", "message":  * Running on http://172.18.0.8:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:06,569", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:06,570", "level": "INFO", "message":  * Running on http://172.18.0.9:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:34,579", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:34,580", "level": "INFO", "message":  * Running on http://172.18.0.7:5002/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:25:47,814", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:25:47,814", "level": "INFO", "message":  * Running on http://172.18.0.5:5002/ (Press CTRL+C to quit)}

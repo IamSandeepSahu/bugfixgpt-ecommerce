@@ -1,0 +1,117 @@
+version: '3.8'
+
+services:
+  # API Gateway
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api-gateway:/app
+      - ./logs:/logs
+    environment:
+      - SERVICE_PRODUCTS=http://products:5000
+      - SERVICE_ORDERS=http://orders:5001
+      - SERVICE_USERS=http://users:5002
+      - SERVICE_PAYMENTS=http://payments:5003
+      - SERVICE_INVENTORY=http://inventory:5004
+    networks:
+      - ecommerce-network
+    depends_on:
+      - products
+      - orders
+      - users
+      - payments
+      - inventory
+
+  # Product Service
+  products:
+    build: ./products
+    volumes:
+      - ./products:/app
+      - ./logs:/logs
+    environment:
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+    networks:
+      - ecommerce-network
+    depends_on:
+      - mongo
+
+  # Order Service
+  orders:
+    build: ./orders
+    volumes:
+      - ./orders:/app
+      - ./logs:/logs
+    environment:
+      - PORT=5001
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+      - SERVICE_PRODUCTS=http://products:5000
+      - SERVICE_PAYMENTS=http://payments:5003
+      - SERVICE_INVENTORY=http://inventory:5004
+    networks:
+      - ecommerce-network
+    depends_on:
+      - mongo
+      - products
+      - payments
+      - inventory
+
+  # User Service
+  users:
+    build: ./users
+    volumes:
+      - ./users:/app
+      - ./logs:/logs
+    environment:
+      - PORT=5002
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+    networks:
+      - ecommerce-network
+    depends_on:
+      - mongo
+
+  # Payment Service
+  payments:
+    build: ./payments
+    volumes:
+      - ./payments:/app
+      - ./logs:/logs
+    environment:
+      - PORT=5003
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+    networks:
+      - ecommerce-network
+    depends_on:
+      - mongo
+
+  # Inventory Service
+  inventory:
+    build: ./inventory
+    volumes:
+      - ./inventory:/app
+      - ./logs:/logs
+    environment:
+      - PORT=5004
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+    networks:
+      - ecommerce-network
+    depends_on:
+      - mongo
+
+  # MongoDB Database
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - ecommerce-network
+
+networks:
+  ecommerce-network:
+
+volumes:
+  mongo-data: 

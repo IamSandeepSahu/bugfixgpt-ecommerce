@@ -1,0 +1,38 @@
+{"timestamp": "2025-04-04 13:00:51,420", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:00:51,420", "level": "INFO", "message":  * Running on http://172.19.0.5:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:03:21,712", "level": "INFO", "message": 172.19.0.7 - - [04/Apr/2025 13:03:21] "[35m[1mPOST /payments/process HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:10:59,753", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:10:59,754", "level": "INFO", "message":  * Running on http://172.20.0.6:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:05:07,850", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:05:07,850", "level": "INFO", "message":  * Running on http://172.20.0.5:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:06:44,382", "level": "INFO", "message": 172.20.0.2 - - [04/Apr/2025 14:06:44] "GET /health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:09:40,719", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:09:40,720", "level": "INFO", "message":  * Running on http://172.20.0.7:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 15:27:08,698", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 15:27:08,699", "level": "INFO", "message":  * Running on http://172.20.0.9:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:38:03,432", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:38:03,433", "level": "INFO", "message":  * Running on http://172.20.0.9:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:56:36,392", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:56:36,392", "level": "INFO", "message":  * Running on http://172.18.0.9:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:01:04,184", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:01:04,184", "level": "INFO", "message":  * Running on http://172.18.0.9:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:06:24,500", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:06:24,500", "level": "INFO", "message":  * Running on http://172.18.0.7:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:06,058", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:06,058", "level": "INFO", "message":  * Running on http://172.18.0.6:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:33,636", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:33,637", "level": "INFO", "message":  * Running on http://172.18.0.6:5003/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:25:47,327", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:25:47,328", "level": "INFO", "message":  * Running on http://172.18.0.7:5003/ (Press CTRL+C to quit)}

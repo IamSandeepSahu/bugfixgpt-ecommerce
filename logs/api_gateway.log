@@ -1,0 +1,123 @@
+{"timestamp": "2025-04-04 13:00:51,654", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:00:51,654", "level": "INFO", "message":  * Running on http://172.19.0.8:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:01:08,598", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:08] "GET /health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:15,707", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:15] "GET /products/products HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:20,820", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:20] "[35m[1mPOST /users/users/register HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:01:25,891", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:25] "POST /users/users/login HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:30,454", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:30] "GET /inventory/inventory HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:40,724", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:40] "[35m[1mPOST /products/products HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:01:45,249", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:45] "GET /inventory/inventory HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:01:58,451", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:01:58] "[31m[1mPOST /inventory/inventory HTTP/1.1[0m" 405 -}
+{"timestamp": "2025-04-04 13:02:13,778", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:02:13] "[31m[1mPOST /orders/orders HTTP/1.1[0m" 400 -}
+{"timestamp": "2025-04-04 13:02:52,951", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:02:52] "[31m[1mPOST /inventory/inventory HTTP/1.1[0m" 409 -}
+{"timestamp": "2025-04-04 13:03:08,386", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:03:08] "GET /inventory/inventory HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:03:14,585", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:03:14] "[35m[1mPOST /orders/orders HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:03:21,717", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:03:21] "[35m[1mPOST /orders/orders HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:03:31,269", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:03:31] "GET /inventory/inventory/67efd804aa8da7344c1f476d HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:03:41,006", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:03:41] "GET /orders/orders?user_id=67efd8209ba0f49fafc7025f HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:10:59,626", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 13:10:59,627", "level": "INFO", "message":  * Running on http://172.20.0.5:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 13:11:16,857", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:11:16] "[33mGET /products/products/by-category/electronics HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:11:46,466", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:11:46] "GET /products/products/category/electronics HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:52,982", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:11:52] "GET /products/health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:11:58,768", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:11:58] "[35m[1mPOST /products/products HTTP/1.1[0m" 201 -}
+{"timestamp": "2025-04-04 13:12:09,238", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:12:09] "[33mGET /unknown-service/test HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:12:16,141", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:12:16] "GET /products/products/search?q=non-existent-product HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:12:32,293", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:12:32] "[33mGET /non-existent-service/non-existent-endpoint HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:16:43,385", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:43] "GET /products/products/search?q=phone+%5B%2B%5D HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,635", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=a+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,640", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=b+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,646", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=c+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,651", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=d+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,657", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=e+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,663", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=f+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,667", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=g+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,673", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=h+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,680", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=i+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,686", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=j+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,691", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=k+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,697", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=l+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,702", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=m+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,707", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=n+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,712", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=o+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,717", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=p+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,722", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=q+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,727", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=r+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,732", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=s+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,736", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=t+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,740", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=u+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,802", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=v+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,817", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=w+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,822", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=x+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,827", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=y+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:48,831", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:48] "GET /products/products/search?q=z+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:16:55,098", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:16:55] "[35m[1mGET /products/products/search?q=*[])(+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:20:35,843", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:20:35] "[35m[1mGET /products/products/search?q=*[])(+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:21:10,197", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:21:10] "[35m[1mGET /products/products/search?q=*[])(+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:28:16,462", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:28:16] "[35m[1mGET /products/products/search?q=*[])(+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:32:10,334", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:32:10] "[33mGET /products/search?query=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:32:20,158", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:32:20] "[33mGET /products/search?q=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:32:30,827", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:32:30] "[33mGET /api/products/search?q=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:32:41,643", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:32:41] "[33mGET /products/search?q=phone+ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:33:38,957", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:33:38] "GET /products/products/search?q=phone+ HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 13:33:45,372", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:33:45] "[35m[1mGET /products/products/search?q=*[])(+ HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:35:22,096", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:35:22] "[35m[1mGET /products/products/search?q=*[][]+( HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 13:57:25,052", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:57:25] "[33mGET /products/search?q=Smartphone HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 13:57:34,827", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 13:57:34] "[33mGET /products/search?q=Smartphone HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 14:04:09,350", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:04:09] "[33mGET /products/ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 14:05:07,577", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:05:07,577", "level": "INFO", "message":  * Running on http://172.20.0.2:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:05:31,497", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:05:31] "[33mGET /products/ HTTP/1.1[0m" 404 -}
+{"timestamp": "2025-04-04 14:05:37,754", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:05:37] "[35m[1mGET /products/products HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:05:53,878", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:05:53] "GET /products/search?q=phone HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:05:58,411", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:05:58] "GET /products/category/Electronics HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:18,359", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:18] "GET /products HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:24,632", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:24] "GET /products/search?q=Smartphone HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:29,428", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:29] "GET /users/health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:38,339", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:38] "[35m[1mGET /inventory/health HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:06:44,384", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:44] "GET /payments/health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:49,092", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:49] "GET /orders/health HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:06:55,221", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:06:55] "GET /orders HTTP/1.1" 200 -}
+{"timestamp": "2025-04-04 14:08:18,117", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:08:18] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:09:40,299", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 14:09:40,299", "level": "INFO", "message":  * Running on http://172.20.0.2:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 14:10:30,867", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:10:30] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 14:13:09,425", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 14:13:09] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 15:27:08,182", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 15:27:08,187", "level": "INFO", "message":  * Running on http://172.20.0.3:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 15:27:17,653", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 15:27:17] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:38:03,419", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:38:03,419", "level": "INFO", "message":  * Running on http://172.20.0.4:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:38:10,092", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 16:38:10] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:54:12,831", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 16:54:12] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:55:17,847", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 16:55:17] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:56:36,259", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 16:56:36,259", "level": "INFO", "message":  * Running on http://172.18.0.4:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 16:57:13,880", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 16:57:13] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 16:58:22,500", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 16:58:22] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 17:01:03,765", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:01:03,767", "level": "INFO", "message":  * Running on http://172.18.0.3:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:01:18,690", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 17:01:18] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 17:06:24,365", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:06:24,367", "level": "INFO", "message":  * Running on http://172.18.0.4:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:06:42,893", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 17:06:42] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 17:22:05,672", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:05,675", "level": "INFO", "message":  * Running on http://172.18.0.2:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:33,404", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:22:33,404", "level": "INFO", "message":  * Running on http://172.18.0.4:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:22:51,314", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 17:22:51] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
+{"timestamp": "2025-04-04 17:25:47,178", "level": "WARNING", "message":  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.}
+{"timestamp": "2025-04-04 17:25:47,178", "level": "INFO", "message":  * Running on http://172.18.0.3:8000/ (Press CTRL+C to quit)}
+{"timestamp": "2025-04-04 17:25:59,229", "level": "INFO", "message": 192.168.65.1 - - [04/Apr/2025 17:25:59] "[35m[1mGET /products/search?q=%2A%5B%28%29 HTTP/1.1[0m" 500 -}
