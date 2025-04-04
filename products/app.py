@@ -226,16 +226,14 @@ def get_products_by_category(category):
         return jsonify({"error": str(e)}), 500
 
 @app.route('/search', methods=['GET'])
+@app.route('/search', methods=['GET'])
 def search_products():
     try:
-        # BUG: No sanitization of search query - will fail with regex special characters
         query = request.args.get('q', '')
         
-        # INTRODUCED BUG: Using the search query directly in a regex pattern without escaping
-        # This will fail when users search for products with regex special characters like '+'
-        regex_pattern = f".*{query}.*"  # BUG: Should use re.escape(query) here
+        # Fix: Escape special characters in the search query
+        regex_pattern = f".*{re.escape(query)}.*"
         
-        # Using regex directly without escaping special characters
         products = list(products_collection.find({"name": {"$regex": regex_pattern, "$options": "i"}}))
         
         # Convert ObjectId to string for JSON serialization
@@ -248,7 +246,6 @@ def search_products():
         error_data = {"error": str(e), "query": query}
         logger.error(json.dumps(error_data))
         return jsonify({"error": f"Search failed: {str(e)}"}), 500
-
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port) 
